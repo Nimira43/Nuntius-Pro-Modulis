@@ -1,8 +1,9 @@
-# ColourCaster
+# 🎨 ColourCaster
 
 > Cast random or themed colours with visible terminal output.
 
-## Install
+## ✨ Install
 
 ```bash
 npm i colourcaster
+

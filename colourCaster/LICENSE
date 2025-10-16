@@ -1,0 +1,16 @@
+
+---
+
+##  3. **Optional: Add a Basic Test**
+
+Even a placeholder test helps future expansion:
+
+```js
+// test/colourcaster.test.js
+import { castColour } from '../src/index.js'
+
+console.log('Testing glyphwave:')
+castColour('glyphwave')
+
+console.log('Testing random:')
+castColour()

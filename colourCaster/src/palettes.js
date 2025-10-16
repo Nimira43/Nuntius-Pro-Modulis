@@ -8,3 +8,7 @@ export function getPalette(theme) {
   const pool = palettes[theme] || palettes['glyphwave']
   return pool[Math.floor(Math.random() * pool.length)]
 }
+
+export function getRandomHex() {
+  return '#' + Math.floor(Math.random() * 0xffffff).toString(16).padStart(6, '0')
+}

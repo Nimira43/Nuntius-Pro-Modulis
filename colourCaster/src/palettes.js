@@ -1,0 +1,5 @@
+const palettes = {
+  glyphwave: ['#8A2BE2', '#FF69B4', '#00FFFF', '#FFD700'],
+  scroll: ['#F5DEB3', '#D2B48C', '#EEE8AA', '#DEB887'],
+  rave: ['#FF00FF', '#00FF00', '#FFFF00', '#00FFFF']
+}

@@ -24,3 +24,22 @@ castColour('rave')
 // Cast without logging to terminal
 const hex = castColour('scroll', false)
 ```
+
+## 🎨 Available Themes
+
+```
+Theme	           Palette Colours
+glyphwave	    #8A2BE2, #FF69B4, #00FFFF, #FFD700
+scroll	      #F5DEB3, #D2B48C, #EEE8AA, #DEB887
+rave	        #FF00FF, #00FF00, #FFFF00, #00FFFF
+```
+
+You can also pass 'random' to generate a random hex colour.
+
+## 🧪 Testing
+
+```
+npm test
+```
+
+Runs the test script located in test/nuntius-pro-modulis.test.js.

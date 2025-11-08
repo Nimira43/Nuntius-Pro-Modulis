@@ -1,0 +1,26 @@
+{
+  "name": "nuntius-pro-modulis",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "colour",
+    "terminal",
+    "theme",
+    "glyphwave",
+    "rave",
+    "scroll"
+  ],
+  "directories": {
+    "test": "test"
+  },
+ "scripts": {
+  "test": "node test/nuntius-pro-modulis.test.js"
+  },
+  "author": "Nick Rabone",
+  "license": "MIT",
+  "description": "Cast random or themed colours with visible terminal output",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}

@@ -20,6 +20,10 @@
   "author": "Nick Rabone",
   "license": "MIT",
   "description": "Cast random or themed colours with visible terminal output",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nimira43/Nuntius-Pro-Modulis"
+  },
   "dependencies": {
     "chalk": "^5.3.0"
   }

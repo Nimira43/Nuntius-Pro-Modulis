@@ -1,7 +1,8 @@
 {
   "name": "nuntius-pro-modulis",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "type": "module",
   "keywords": [
     "colour",
@@ -15,8 +16,10 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node test/nuntius-pro-modulis.test.js"
+    "build": "tsc",
+    "test": "node lib/test/nuntius-pro-modulis.test.js"
   },
+
   "author": "Nick Rabone",
   "license": "MIT",
   "description": "Cast random or themed colours with visible terminal output",
@@ -29,6 +32,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }
 }

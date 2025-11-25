@@ -4,11 +4,11 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "outDir": "lib",
-    "rootDir": "src",
+    "rootDir": ".",
     "declaration": true,
     "esModuleInterop": true,
     "strict": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules", "test"]
+  "include": ["src", "test"],
+  "exclude": ["node_modules"]
 }

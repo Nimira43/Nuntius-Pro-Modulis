@@ -19,7 +19,6 @@
     "build": "tsc",
     "test": "node lib/test/nuntius-pro-modulis.test.js"
   },
-
   "author": "Nick Rabone",
   "license": "MIT",
   "description": "Cast random or themed colours with visible terminal output",
@@ -32,6 +31,9 @@
   },
   "devDependencies": {
     "@types/node": "^24.10.1",
+    "rollup": "^4.53.3",
+    "rollup-plugin-delete": "^3.0.2",
+    "rollup-plugin-typescript": "^1.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   }

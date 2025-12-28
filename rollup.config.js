@@ -7,6 +7,10 @@ export default {
     {
       file: 'lib/index.cjs',
       format: 'cjs',
+    },
+    {
+      file: 'lib/index.esm.js',
+      format: 'esm',
     }
   ]
 }

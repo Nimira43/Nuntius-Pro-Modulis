@@ -3,6 +3,7 @@ import del from 'rollup-plugin-delete'
 
 export default {
   input: 'src/index.ts',
+  external: ['chalk'],
   output: [
     {
       file: 'lib/index.cjs',

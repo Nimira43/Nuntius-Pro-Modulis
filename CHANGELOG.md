@@ -1,36 +1,59 @@
 # 📜 CHANGELOG
 
-[1.0.0] – 2025-11-08
-First official release of Nuntius Pro Modulis
+## **[1.0.0] – 2025‑11‑08**  
+
+### 🎉 First official release of **Nuntius Pro Modulis**
+
+The inaugural release of the colour‑casting utility library, designed for terminal theming, randomised palettes, and visually expressive CLI output.
+
+---
 
 ## ✨ Added
 
-castColour(theme = 'random', log = true) function to summon random or themed hex colours
+- **`castColour(theme = 'random', log = true)`**  
+  Summons a random or theme‑based hex colour, with optional styled terminal output.
 
-Predefined themes: glyphwave, scroll, rave
+- **Predefined themes**
+  - `glyphwave`
+  - `scroll`
+  - `rave`
 
-Terminal output styling via chalk with theme-tagged colour logs
+- **Terminal output styling** via `chalk`, including theme‑tagged colour logs.
 
-Utility modules:
+- **Utility modules**
+  - `palettes.ts` — theme colour pools + random hex generator  
+  - `formatter.ts` — chalk‑styled terminal output
 
-palettes.js for theme-based colour pools and random hex generation
+- **TypeScript support**
+  - Full `.d.ts` declaration output  
+  - ES module + CommonJS builds via Rollup  
+  - Strict mode enabled
 
-formatter.js for styled terminal output
+- **Basic test script**  
+  `test/nuntius-pro-modulis.test.js` for verifying theme output and random casting.
 
-Basic test script: test/nuntius-pro-modulis.test.js
+---
 
 ## 📦 Project Setup
 
-Created package.json with metadata, scripts, and dependencies
+- Added `package.json` with metadata, scripts, keywords, and dependency definitions.
+- Added `.gitignore` to exclude build artifacts, IDE configs, and environment files.
+- Added `LICENSE` (MIT) for open‑source distribution.
+- Authored a complete `README.md` with installation, usage examples, API docs, and theme descriptions.
+- Configured Rollup with:
+  - TypeScript compilation  
+  - Declaration output  
+  - External dependency handling (`chalk`)  
+  - Clean build directory via `rollup-plugin-delete`
 
-Added .gitignore to exclude build artifacts, Rider config, and local environment files
-
-Added LICENSE (MIT) for open-source distribution
-
-Authored a professional README.md with usage, API, and theme documentation
+---
 
 ## 🧭 Purpose
 
-Established as a learning project for publishing NPM packages
+Nuntius Pro Modulis was created as a learning project to explore:
 
-Emphasises clarity, modularity, and visual feedback in terminal environments
+- Publishing and versioning NPM packages  
+- Structuring modular TypeScript libraries  
+- Producing dual‑format builds (CJS + ESM)  
+- Providing colourful, expressive terminal feedback  
+- Maintaining clarity, modularity, and developer‑friendly ergonomics

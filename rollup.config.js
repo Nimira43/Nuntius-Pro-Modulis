@@ -11,6 +11,18 @@ export default {
     {
       file: 'lib/index.esm.js',
       format: 'esm',
-    }
+    },
+  ],
+  plugins: [
+    del(
+      {
+        targets: ['lib/*']
+      },
+    ),
+    typescript(
+      {
+        useTsconfigDeclarationDir: true
+      },
+    )
   ]
 }

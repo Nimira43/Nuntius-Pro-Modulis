@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"  
   },
   "author": "Nick Rabone",
   "license": "MIT",
@@ -11,5 +11,12 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Nimira43/Nuntius-Pro-Modulis"
+  },
+  "type": "module",
+  "devDependencies": {
+    "rollup": "^4.17.2",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "typescript": "^5.4.5",
+    "rollup-plugin-delete": "^2.0.0"
   }
 }

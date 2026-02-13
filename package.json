@@ -1,6 +1,6 @@
 {
-  "name": "nuntius-pro-modulis",
-  "version": "1.0.0",
+  "name": "@nimira43/nuntius-pro-modulis",
+  "version": "1.0.1",
   "description": "Prototype NPM package",
   "repository": {
     "type": "git",
